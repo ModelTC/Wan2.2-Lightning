@@ -279,7 +279,7 @@ The models in this repository are licensed under the Apache 2.0 License. We clai
 
 We built upon and reused code from the following projects: [Wan2.1](https://github.com/Wan-Video/Wan2.1), [Wan2.2](https://github.com/Wan-Video/Wan2.2), licensed under the Apache License 2.0. 
 
-We also adopt the text prompts from [Movie Gen Bench](https://github.com/facebookresearch/MovieGenBench), which is licensed under the Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) License. The original license can be found [here](https://github.com/facebookresearch/MovieGenBench/blob/main/LICENSE).
+We also adopt the evaluation text prompts from [Movie Gen Bench](https://github.com/facebookresearch/MovieGenBench), which is licensed under the Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) License. The original license can be found [here](https://github.com/facebookresearch/MovieGenBench/blob/main/LICENSE).
 
 The selected prompts are further enhanced using the `Qwen/Qwen2.5-14B-Instruct`model [Qwen](https://huggingface.co/Qwen).
 
