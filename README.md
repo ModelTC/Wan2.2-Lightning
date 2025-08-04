@@ -6,7 +6,7 @@
 <!-- [**Wan2.2-Lightning: Distill Wan2.2 Family into 4 Steps**] <be> -->
 
 
-We are excited to release the distilled version of <a href="https://wan.video"><b>wan2.2</b></a> video generation model family, which offers the following advantages:
+We are excited to release the distilled version of <a href="https://wan.video"><b>Wan2.2</b></a> video generation model family, which offers the following advantages:
 - **Fast**: Video generation now requires only 4 steps without the need of CFG trick, leading to x20 speed-up
 - **High-quality**: The distilled model delivers visuals on par with the base model in most scenarios, sometimes even better.
 - **Complex Motion Generation**: Despite the reduction to just 4 steps, the model retains excellent motion dynamics in the generated scenes.
@@ -67,7 +67,7 @@ If your research or project builds upon [**Wan2.1**](https://github.com/Wan-Vide
 - [ ] Wan2.2-TI2V-5B-4steps
 - [ ] Wan2.2-I2V-A14B-4steps
 
-## Run Wan2.2-Lightning
+## 🚀 Run Wan2.2-Lightning
 
 #### Installation
 
@@ -270,17 +270,6 @@ We compared Wan2.2 with leading closed-source commercial models on our new Wan-B
     <img src="assets/performance.png" alt="" style="width: 90%;" />
 </div> -->
 
-## Citation
-If you find our work helpful, please cite us.
-
-```
-@article{wan2025,
-      title={Wan: Open and Advanced Large-Scale Video Generative Models}, 
-      author={Team Wan and Ang Wang and Baole Ai and Bin Wen and Chaojie Mao and Chen-Wei Xie and Di Chen and Feiwu Yu and Haiming Zhao and Jianxiao Yang and Jianyuan Zeng and Jiayu Wang and Jingfeng Zhang and Jingren Zhou and Jinkai Wang and Jixuan Chen and Kai Zhu and Kang Zhao and Keyu Yan and Lianghua Huang and Mengyang Feng and Ningyi Zhang and Pandeng Li and Pingyu Wu and Ruihang Chu and Ruili Feng and Shiwei Zhang and Siyang Sun and Tao Fang and Tianxing Wang and Tianyi Gui and Tingyu Weng and Tong Shen and Wei Lin and Wei Wang and Wei Wang and Wenmeng Zhou and Wente Wang and Wenting Shen and Wenyuan Yu and Xianzhong Shi and Xiaoming Huang and Xin Xu and Yan Kou and Yangyu Lv and Yifei Li and Yijing Liu and Yiming Wang and Yingya Zhang and Yitong Huang and Yong Li and You Wu and Yu Liu and Yulin Pan and Yun Zheng and Yuntao Hong and Yupeng Shi and Yutong Feng and Zeyinzi Jiang and Zhen Han and Zhi-Fan Wu and Ziyu Liu},
-      journal = {arXiv preprint arXiv:2503.20314},
-      year={2025}
-}
-```
 
 ## License Agreement
 The models in this repository are licensed under the Apache 2.0 License. We claim no rights over the your generated contents, granting you the freedom to use them while ensuring that your usage complies with the provisions of this license. You are fully accountable for your use of the models, which must not involve sharing any content that violates applicable laws, causes harm to individuals or groups, disseminates personal information intended for harm, spreads misinformation, or targets vulnerable populations. For a complete list of restrictions and details regarding your rights, please refer to the full text of the [license](LICENSE.txt).
@@ -288,10 +277,4 @@ The models in this repository are licensed under the Apache 2.0 License. We clai
 
 ## Acknowledgements
 
-We would like to thank the contributors to the [SD3](https://huggingface.co/stabilityai/stable-diffusion-3-medium), [Qwen](https://huggingface.co/Qwen), [umt5-xxl](https://huggingface.co/google/umt5-xxl), [diffusers](https://github.com/huggingface/diffusers) and [HuggingFace](https://huggingface.co) repositories, for their open research.
-
-
-
-## Contact Us
-If you would like to leave a message to our research or product teams, feel free to join our [Discord](https://discord.gg/AKNgpMK4Yj) or [WeChat groups](https://gw.alicdn.com/imgextra/i2/O1CN01tqjWFi1ByuyehkTSB_!!6000000000015-0-tps-611-1279.jpg)!
-
+We built upon and reused code from the following projects: [Wan2.1](https://github.com/Wan-Video/Wan2.1), [Wan2.2](https://github.com/Wan-Video/Wan2.2), licensed under the Apache License 2.0. We also adopt the text prompts from [Movie Gen Bench](https://github.com/facebookresearch/MovieGenBench) for evalution.
