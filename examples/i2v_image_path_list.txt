@@ -4,3 +4,6 @@ examples/i2v_testset/i2v_test_3_guitar.png
 examples/i2v_testset/i2v_test_4_cartoon.png
 examples/i2v_testset/i2v_test_5_bikes.png
 examples/i2v_testset/i2v_test_6_girl.png
+examples/i2v_testset/i2v_test_7_dance.png
+examples/i2v_testset/i2v_test_8_bicycle.png
+examples/i2v_testset/i2v_test_9_photography.png
