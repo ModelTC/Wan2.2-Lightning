@@ -121,8 +121,8 @@ In some results, the direction of the vehicles may be reversed.
 
 ## 📑 Todo List
 - [x] Wan2.2-T2V-A14B-4steps
-- [ ] Wan2.2-TI2V-5B-4steps
 - [x] Wan2.2-I2V-A14B-4steps
+- [ ] Wan2.2-TI2V-5B-4steps
 
 ## 🚀 Run Wan2.2-Lightning
 
