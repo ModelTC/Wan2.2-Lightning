@@ -63,19 +63,28 @@ def model_safe_downcast(
                 buffer.data = buffer.data.to(dtype)
     return model
 
+def build_lora_names(key, lora_down_key, lora_up_key, is_native_weight):
+    base = "diffusion_model." if is_native_weight else ""
+    lora_down = base + key.replace(".weight", lora_down_key)
+    lora_up = base + key.replace(".weight", lora_up_key)
+    lora_alpha = base + key.replace(".weight", ".alpha")
+    return lora_down, lora_up, lora_alpha
 
 def load_and_merge_lora_weight(
     model: nn.Module,
     lora_state_dict: dict,
     lora_down_key: str=".lora_down.weight",
     lora_up_key: str=".lora_up.weight",
-    device: str='cuda'):
+    device: str="cuda"):
+    is_native_weight = any("diffusion_model." in key for key in lora_state_dict)
     for key, value in model.named_parameters():
-        lora_down_name = key.replace(".weight", lora_down_key)
+        lora_down_name, lora_up_name, lora_alpha_name = build_lora_names(
+            key, lora_down_key, lora_up_key, is_native_weight
+        )
         if lora_down_name in lora_state_dict:
             lora_down = lora_state_dict[lora_down_name]
-            lora_up = lora_state_dict[key.replace(".weight", lora_up_key)]
-            lora_alpha = float(lora_state_dict[key.replace(".weight", ".alpha")])
+            lora_up = lora_state_dict[lora_up_name]
+            lora_alpha = float(lora_state_dict[lora_alpha_name])
             rank = lora_down.shape[0]
             scaling_factor = lora_alpha / rank
             assert lora_up.dtype == torch.float32
