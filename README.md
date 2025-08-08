@@ -13,7 +13,7 @@ We are excited to release the distilled version of <a href="https://wan.video"><
 
 ## 🔥 Latest News!!
 
-* Aug 08, 2025: 👋 Release of [Native ComfyUI Workflows](https://docs.comfy.org/tutorials/video/wan/wan2_2).
+* Aug 08, 2025: 👋 Release of Native ComfyUI Workflows.
 
  <!-- and [lora weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) for the `Wan2.2-Lightning` models! -->
 
