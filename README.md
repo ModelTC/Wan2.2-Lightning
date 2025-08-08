@@ -13,39 +13,50 @@ We are excited to release the distilled version of <a href="https://wan.video"><
 
 ## 🔥 Latest News!!
 
-* Aug 08, 2025: 👋 We're excited to announce the release of [Native ComfyUI Workflows](https://docs.comfy.org/tutorials/video/wan/wan2_2) and [compatible lora weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) for our latest `Wan2.2-Lightning` models! These new [weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) are also compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).
+* Aug 08, 2025: 👋 Release of [Native ComfyUI Workflows](https://docs.comfy.org/tutorials/video/wan/wan2_2).
+
+ <!-- and [lora weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) for the `Wan2.2-Lightning` models! -->
+
+ <!-- Choose one of These new [weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) are also compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper). -->
 
 <table align="center">
   <thead>
     <tr>
       <th>Model</th>
       <th>Type</th>
-      <th>Workflow Download</th>
+      <th>For Native Comfy</th>
+      <th>For Kijai's Wrapper</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>Wan2.2-I2V-A14B-NFE4-V1</b></td>
       <td>Image-to-Video</td>
-      <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
+      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">I2V-V1-WF</a></td>
+      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-forKJ.json">I2V-V1-WF</a></td>
     </tr>
     <tr>
       <td><b>Wan2.2-T2V-A14B-NFE4-V1.1</b></td>
-      <td>Text-to-Video (Enhanced)</td>
-      <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-NativeComfy.json">Workflow</a></td>
+      <td>Text-to-Video</td>
+      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-NativeComfy.json">T2V-V1.1-WF</a></td>
+      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-forKJ.json">T2V-V1.1-WF</a></td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td><b>Wan2.2-T2V-A14B-NFE4-V1</b></td>
       <td>Text-to-Video</td>
       <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>
 
-* Aug 07, 2025: 👋 We have open the  [Wan2.2-I2V-A14B-NFE4-V1](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1). A [workflow](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-forKJ.json) compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is inside this link. Enjoy!
-* Aug 07, 2025: 👋 We have open the  [Wan2.2-T2V-A14B-NFE4-V1.1](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1). A [workflow](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-forKJ.json) compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is inside this link. The generation quality of V1.1 is slightly better than V1. Enjoy!
-* Aug 04, 2025: 👋 We have open the  [Wan2.2-T2V-A14B-NFE4-V1](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1). Enjoy!
-- [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is an implementation of Wan models for ComfyUI. Thanks to its Wan-only focus, it's on the frontline of getting cutting edge optimizations and hot research features.
+* Aug 07, 2025: 👋 Release of [Wan2.2-I2V-A14B-NFE4-V1](https://huggingface.co/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1).
+ <!-- A [workflow](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-forKJ.json) compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is inside this link. Enjoy! -->
+* Aug 07, 2025: 👋 Release of [Wan2.2-T2V-A14B-NFE4-V1.1](https://huggingface.co/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1). The generation quality of V1.1 is slightly better than V1.
+
+<!-- A [workflow](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-forKJ.json) compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is inside this link. The generation quality of V1.1 is slightly better than V1. Enjoy! -->
+* Aug 04, 2025: 👋 Release of [Wan2.2-T2V-A14B-NFE4-V1](https://huggingface.co/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1).
+
+<!-- - [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) is an implementation of Wan models for ComfyUI. Thanks to its Wan-only focus, it's on the frontline of getting cutting edge optimizations and hot research features. -->
 
 ## Video Demos
 ### Wan2.2-I2V-A14B-NFE4-V1 Demo
