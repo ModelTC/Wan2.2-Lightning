@@ -13,7 +13,7 @@ We are excited to release the distilled version of <a href="https://wan.video"><
 
 ## 🔥 Latest News!!
 
-* Aug 08, 2025: 👋 We're excited to announce the release of [Native ComfyUI Workflows](https://docs.comfy.org/tutorials/video/wan/wan2_2) and [lora weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) for our latest `Wan2.2-Lightning` models! These new [weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) are also compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).
+* Aug 08, 2025: 👋 We're excited to announce the release of [Native ComfyUI Workflows](https://docs.comfy.org/tutorials/video/wan/wan2_2) and [compatible lora weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) for our latest `Wan2.2-Lightning` models! These new [weights](https://hf-mirror.com/lightx2v/Wan2.2-Lightning/tree/main) are also compatible with [Kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).
 
 <table align="center">
   <thead>
@@ -27,17 +27,17 @@ We are excited to release the distilled version of <a href="https://wan.video"><
     <tr>
       <td><b>Wan2.2-I2V-A14B-NFE4-V1</b></td>
       <td>Image-to-Video</td>
-      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
+      <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
     </tr>
     <tr>
       <td><b>Wan2.2-T2V-A14B-NFE4-V1.1</b></td>
       <td>Text-to-Video (Enhanced)</td>
-      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-NativeComfy.json">Workflow</a></td>
+      <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1.1-NativeComfy.json">Workflow</a></td>
     </tr>
     <tr>
       <td><b>Wan2.2-T2V-A14B-NFE4-V1</b></td>
       <td>Text-to-Video</td>
-      <td><a href="https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
+      <td><a href="https://hf-mirror/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json">Workflow</a></td>
     </tr>
   </tbody>
 </table>
