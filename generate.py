@@ -129,7 +129,7 @@ def _parse_args():
         "--save_dir",
         type=str,
         default="test_results",
-        help="The path to the lora directory.")
+        help="The directory to save the generated videos.")
     parser.add_argument(
         "--offload_model",
         type=str2bool,
@@ -339,7 +339,7 @@ def generate(args):
         if rank == 0:
             for i, (prompt, img) in enumerate(zip(prompt_list, image_list)):
                 prompt_output = prompt_expander(
-                    args.prompt,
+                    prompt,
                     image=img,
                     tar_lang=args.prompt_extend_target_lang,
                     seed=args.base_seed)
